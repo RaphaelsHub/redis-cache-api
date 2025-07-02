@@ -10,4 +10,10 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FastCacheApi.Application\FastCacheApi.Application.csproj" />
+    <ProjectReference Include="..\FastCacheApi.Domain\FastCacheApi.Domain.csproj" />
+    <ProjectReference Include="..\FastCacheApi.Infrastructure\FastCacheApi.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
